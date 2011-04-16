@@ -158,7 +158,6 @@ var fs = require('fs'),
 
         var url = info.repository.url.replace(/^(git:|http:)/, 'https:').replace(/\.git$/, '') + '/raw/master/';
         // https://github.com/ded/klass/raw/master/src/ender.js
-        // console.log(info);
         var ender = url + info.ender;
         var main = url + info.main; // assume it's just a string for now (but it can be an array)
 
